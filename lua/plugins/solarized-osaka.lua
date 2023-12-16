@@ -12,8 +12,8 @@ return {
         functions = {},
         variables = {},
         -- Background styles. Can be "dark", "transparent" or "normal"
-        sidebars = "normal", -- style for sidebars, see below
-        floats = "dark", -- style for floating windows
+        sidebars = "transparent", -- style for sidebars, see below
+        floats = "dark",          -- style for floating windows
       },
       transparent = true,
       dim_inactive = false, -- dims inactive windows
