@@ -1,7 +1,9 @@
 {
   "extras": [
+    "lazyvim.plugins.extras.coding.codeium",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.python",
+    "lazyvim.plugins.extras.lang.python-semshi",
     "lazyvim.plugins.extras.ui.alpha",
     "lazyvim.plugins.extras.ui.mini-animate"
   ],
