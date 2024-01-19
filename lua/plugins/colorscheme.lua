@@ -1,11 +1,13 @@
 return {
-  -- add gruvbox
+  -- add solarized-osaka
   { "craftzdog/solarized-osaka.nvim" },
+  -- add tokyonight
   {
     "folke/tokyonight.nvim",
     lazy = true,
     opts = { style = "moon" },
   },
+  -- add catppuccin
   {
     "catppuccin/nvim",
     lazy = true,
@@ -48,7 +50,7 @@ return {
       },
     },
   },
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load customized colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
