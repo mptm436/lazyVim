@@ -1,3 +1,6 @@
+# uncomment the line below to enable
+if true then return {} end
+
 return {
   -- add solarized-osaka
   { "craftzdog/solarized-osaka.nvim" },
