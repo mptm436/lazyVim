@@ -1,3 +1,8 @@
+-- disable this plugin
+if true then
+  return {}
+end
+-- comment out the above part to enable the following
 return {
   -- Mason configuration for ensuring formatters are installed
   {

@@ -13,3 +13,11 @@ keymap("x", "<leader>p", [["_dP]])
 keymap({ "n", "v" }, "<leader>y", [["+y]])
 keymap("n", "<leader>Y", [["+Y]])
 keymap({ "n", "v" }, "<leader>d", [["_d]])
+
+-- Move Lines
+keymap("n", "<Esc-k>", "<cmd>m .+1<cr>==", { desc = "Move up" })
+keymap("n", "<Esc-j>", "<cmd>m .-2<cr>==", { desc = "Move down" })
+keymap("i", "<Esc-k>", "<esc><cmd>m .-2<cr>==gi", { desc = "Move up" })
+keymap("i", "<Esc-j>", "<esc><cmd>m .+1<cr>==gi", { desc = "Move down" })
+keymap("v", "<Esc-k>", ":m '<-2<cr>gv=gv", { desc = "Move up" })
+keymap("v", "<Esc-j>", ":m '>+1<cr>gv=gv", { desc = "Move down" })
